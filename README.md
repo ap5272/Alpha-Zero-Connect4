@@ -12,3 +12,4 @@ The Connect 4 game was built and optimized for storage and retrieval during trai
 the trained model can be compressed and compiled into a ".py" file to be used for actual play (formatted for Kaggle's ConnectX environment).
 
 
+![connectx](https://user-images.githubusercontent.com/33522459/164771601-2f1a092c-f00e-4d86-a5b3-8a2f7a6ee5c6.gif)
