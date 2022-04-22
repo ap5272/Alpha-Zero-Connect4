@@ -1,15 +1,16 @@
 # Alpha-Zero-Connect4
-A Deep Reinforcement Learning Project that trains a Neural Network to play Connect 4 
+A Deep Reinforcement Learning Project that trains a Neural Network by implimenting the Alpha Zero training algorithm to play Connect 4. 
 
-Connect 4 is a game in which two players take turns dropping colored coins in vertical shafts. 
-A player wins when four of their coins form a line either horizontally, vertically, or diagonally.
+This involved optimizing Connect4 for storage and training, and create a Monte-Carlo Tree Search algorithm to improve the Neural Networks play.
 
-The goal of this project was to get a model to play the game intelligently and competitively.
+I sent my AlphaZero model to the Kaggle ConnectX competition, and I reached 21st place on the leaderboard during the Summer of 2021. 
 
-This uses the AlphaZero training algorithm to train the neural network through self-play. 
+Step 1: To train your own AlphaZero model on a CPU/GPU, run "python3 train.py".
 
-The Connect 4 game was built and optimized for storage and retrieval during training, and
-the trained model can be compressed and compiled into a ".py" file to be used for actual play (formatted for Kaggle's ConnectX environment).
+Step 2: To play against your own AlphaZero models, run "python3 play.py".
 
+Step 3: To use your AlphaZero model for inference, use Encoder.ipynb to store your model into a ".py" file. 
+
+Hint: Look inside the train.py if you want to tweak training and gameplay settings.
 
 ![connectx](https://user-images.githubusercontent.com/33522459/164771601-2f1a092c-f00e-4d86-a5b3-8a2f7a6ee5c6.gif)
