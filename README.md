@@ -3,7 +3,7 @@ A Deep Reinforcement Learning Project that trains a Neural Network by implimenti
 
 This involved optimizing Connect4 for storage and training, and create a Monte-Carlo Tree Search algorithm to improve the Neural Networks play.
 
-I sent my AlphaZero model to the Kaggle ConnectX competition, and I reached 21st place out of around 800 competitors during the Summer of 2021. 
+I sent my AlphaZero model to the Kaggle ConnectX competition, and I reached 21st place out of more than 200 competitors during the Summer of 2021. 
 
 Step 1: To train your own AlphaZero model on a CPU/GPU, run "python3 train.py".
 
